@@ -1,0 +1,52 @@
+/*
+
+Theme Name: Anas Khafegy
+Theme Domain: Anas Khafegy
+Version : 1.0
+Description : Mitch Desgin project
+Tags : Mitch Desgin project
+
+*/
+
+.nav-item {
+  font-weight: bold;
+}
+
+.nav-item.active a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item.active a:hover {
+  text-decoration: none;
+}
+
+.nav-item a {
+
+  margin-right: 15px;
+  color: rgba(15, 15, 15, 0.8);
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+body {
+  font-size: 16px;
+}
+
+.hero-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0;
+  background: url(./assets/slider-img-3.jpg);
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
